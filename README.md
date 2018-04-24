@@ -4,6 +4,7 @@
 Short description for the files:
 
 Price Curve optimization
+
 	text files: Contain the values from global optimization for faster running
 	root:
 	-The location of the file.
@@ -13,7 +14,9 @@ Price Curve optimization
 	-calling functions
 	-global optimization
 	-plotting
+	
 lib:
+
 	calc.py:
 	-parameter (S, Sx,...,Sxy, a, sde, Kappa, Sigma) calculation for calibration
 	eh.py:
@@ -36,11 +39,13 @@ lib:
 	-write results back in the Excel file
 
 resources:
+
 	Adatok.xlms:
 	-contains the Prices and the [0,1] values for holiday
 	-the program can be started by "clicking" optimalizálás button
 
 test:
+
 	allfunctiontest.py:
 	-testing all the callable functions in one module
 -I generated random values and calculated with them in the test part.
