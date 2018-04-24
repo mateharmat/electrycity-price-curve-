@@ -1,6 +1,8 @@
 # electrycity-price-curve-
  I wrote my Bsc thesis about "Electricity price curve scenario generation". I've written a program code which helped with the generating part. It is written in Python. The dataset is loaded from an Excel table, and the code can be started from the Excel as well.
+ 
 Short description for the files:
+
 Price Curve optimization
 	text files: Contain the values from global optimization for faster running
 	root:
